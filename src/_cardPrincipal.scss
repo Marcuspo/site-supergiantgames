@@ -33,7 +33,7 @@
 
   .texto-apos-imagem {
     width: 271px;
-    height: 121px;
+    height: 100%;
     padding-top: 28px;
     padding-bottom: 14px;
     font: normal normal normal 20px/21px Open Sans;
@@ -43,6 +43,16 @@
     opacity: 1;
   }
 
+  .mouse-meio-card {
+    @include flexCenter();
+  }
+
+  @media (min-width: 360px) {
+    .imagem-card-meio {
+      width: 280px;
+    }
+  }
+
   @media (max-width: 576px) {
     .texto-apos-imagem {
       font-size: 18px;
@@ -50,6 +60,18 @@
 
     .imagem-card-meio {
       width: 320px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .imagem-card-meio {
+      width: 350px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .imagem-card-meio {
+      width: 380px;
     }
   }
 }
