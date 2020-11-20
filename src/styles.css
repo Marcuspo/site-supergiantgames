@@ -1,0 +1,127 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+}
+
+header .name-header {
+  margin: 0;
+  width: 16rem;
+  height: 2rem;
+  font: normal normal bold 23px/36px Montserrat;
+  letter-spacing: 0.68px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+@media (max-width: 576px) {
+  header .name-header {
+    font-size: 20px;
+  }
+}
+
+.card-principal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../img/background-principal/background-principal.png") center top repeat-x;
+}
+
+.card-principal .texto-imagem-central {
+  padding-top: 12px;
+  padding-bottom: 22px;
+  width: 230px;
+  height: 20px;
+  text-align: center;
+  font: normal normal bold 15px/18px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.card-principal .imagem-fundo {
+  background: url("../img/imagem-card-principal/background-card-principal.svg") no-repeat transparent padding-box center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 1;
+  -webkit-box-shadow: 0px 3px 6px #00000099;
+          box-shadow: 0px 3px 6px #00000099;
+  opacity: 1;
+}
+
+.card-principal .conteudo-apos-imagem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-principal .texto-apos-imagem {
+  width: 271px;
+  height: 121px;
+  padding-top: 28px;
+  padding-bottom: 14px;
+  font: normal normal normal 20px/21px Open Sans;
+  letter-spacing: 0px;
+  color: #f0f0f2;
+  text-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+@media (max-width: 576px) {
+  .card-principal .texto-apos-imagem {
+    font-size: 18px;
+  }
+  .card-principal .imagem-card-meio {
+    width: 320px;
+  }
+}
+
+body {
+  background: #363636;
+}
+
+/*
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
+*/
+/*# sourceMappingURL=styles.css.map */
