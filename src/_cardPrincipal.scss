@@ -17,8 +17,7 @@
   .imagem-fundo {
     background: url("../img/imagem-card-principal/background-card-principal.svg")
       no-repeat transparent padding-box center;
-    display: flex;
-    height: 971px;
+    height: 1080px;
     align-items: center;
     flex-direction: column;
     opacity: 1;
@@ -42,12 +41,6 @@
     color: #f0f0f2;
     text-shadow: 0px 3px 6px #00000029;
     opacity: 1;
-  }
-
-  .mouse-meio-card {
-    display: flex;
-    width: 29px;
-    height: 48px;
   }
 
   @media (min-width: 360px) {
@@ -80,5 +73,19 @@
     .imagem-card-meio {
       width: 380px;
     }
+  }
+}
+
+.mouse-meio-card {
+  margin-bottom: 45px;
+  margin-top: -15px;
+  display: flex;
+  justify-content: center;
+
+  .imagem-mouse {
+    background-color: #ffffff;
+    border-radius: 28px;
+    height: 26px;
+    width: 24px;
   }
 }

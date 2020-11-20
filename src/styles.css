@@ -54,10 +54,7 @@ header .name-header {
 
 .card-principal .imagem-fundo {
   background: url("../img/imagem-card-principal/background-card-principal.svg") no-repeat transparent padding-box center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 971px;
+  height: 1080px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -95,14 +92,6 @@ header .name-header {
   opacity: 1;
 }
 
-.card-principal .mouse-meio-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 29px;
-  height: 48px;
-}
-
 @media (min-width: 360px) {
   .card-principal .imagem-card-meio {
     width: 280px;
@@ -133,46 +122,41 @@ header .name-header {
   }
 }
 
-.segundo-conteudo {
+.mouse-meio-card {
+  margin-bottom: 45px;
+  margin-top: -15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+.mouse-meio-card .imagem-mouse {
+  background-color: #ffffff;
+  border-radius: 28px;
+  height: 26px;
+  width: 24px;
+}
+
+.segundo-conteudo {
   height: 1000px;
   opacity: 1;
 }
 
-.segundo-conteudo .menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.segundo-conteudo .item, .segundo-conteudo .item-meio {
+.segundo-conteudo .card, .segundo-conteudo .item-meio {
   width: 387px;
   height: 613px;
   background: #ffffff;
   -webkit-box-shadow: 0px 3px 6px #ffffff63;
           box-shadow: 0px 3px 6px #ffffff63;
   border-radius: 27px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: 30px;
 }
 
 .segundo-conteudo .item-meio {

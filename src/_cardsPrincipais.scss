@@ -1,24 +1,19 @@
 .segundo-conteudo {
-  @include flexCenter();
   height: 1000px;
   opacity: 1;
 
-  .menu {
-    @include flexCenter();
-  }
-
-  .item {
+  .card {
     width: 387px;
     height: 613px;
     background: #ffffff;
     box-shadow: 0px 3px 6px #ffffff63;
     border-radius: 27px;
-    display: flex;
     flex-direction: column;
+    margin: 30px;
   }
 
   .item-meio {
-    @extend .item;
+    @extend .card;
     border-radius: 31px;
     margin-right: 20px;
     margin-left: 20px;
