@@ -76,8 +76,14 @@
   }
 }
 
-.mouse-meio-card {
+.seta-apos-mouse {
+  @include flexCenter();
+  color: #ffffff;
+  margin-top: -5px;
   margin-bottom: 45px;
+}
+
+.mouse-meio-card {
   margin-top: -15px;
   display: flex;
   justify-content: center;

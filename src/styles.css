@@ -122,8 +122,22 @@ header .name-header {
   }
 }
 
-.mouse-meio-card {
+.seta-apos-mouse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  margin-top: -5px;
   margin-bottom: 45px;
+}
+
+.mouse-meio-card {
   margin-top: -15px;
   display: -webkit-box;
   display: -ms-flexbox;
