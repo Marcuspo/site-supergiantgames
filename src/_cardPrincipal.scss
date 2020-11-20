@@ -18,6 +18,7 @@
     background: url("../img/imagem-card-principal/background-card-principal.svg")
       no-repeat transparent padding-box center;
     display: flex;
+    height: 971px;
     align-items: center;
     flex-direction: column;
     opacity: 1;
@@ -44,16 +45,22 @@
   }
 
   .mouse-meio-card {
-    @include flexCenter();
+    display: flex;
+    width: 29px;
+    height: 48px;
   }
 
   @media (min-width: 360px) {
     .imagem-card-meio {
       width: 280px;
     }
+
+    .imagem-fundo {
+      height: 700px;
+    }
   }
 
-  @media (max-width: 576px) {
+  @media (min-width: 576px) {
     .texto-apos-imagem {
       font-size: 18px;
     }
@@ -63,13 +70,13 @@
     }
   }
 
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     .imagem-card-meio {
       width: 350px;
     }
   }
 
-  @media (max-width: 992px) {
+  @media (min-width: 992px) {
     .imagem-card-meio {
       width: 380px;
     }
