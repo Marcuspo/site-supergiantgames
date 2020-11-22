@@ -157,6 +157,11 @@ header .name-header {
 .segundo-conteudo {
   height: 1147px;
   opacity: 1;
+  /*@media (max-width: 576px) {
+    .imagem-personas {
+      height: 350px;
+    }
+  }*/
 }
 
 .segundo-conteudo .card, .segundo-conteudo .item-meio {
@@ -222,12 +227,6 @@ header .name-header {
   .segundo-conteudo .texto-depois-imagem {
     margin-top: 10px;
     width: 220px;
-  }
-}
-
-@media (max-width: 576px) {
-  .segundo-conteudo .imagem-personas {
-    height: 350px;
   }
 }
 
