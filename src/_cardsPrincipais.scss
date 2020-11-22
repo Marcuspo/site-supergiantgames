@@ -57,11 +57,11 @@
     }
   }
 
-  /*@media (max-width: 576px) {
-    .imagem-personas {
-      height: 350px;
+  @media (max-width: 576px) {
+    .card {
+      height: 550px;
     }
-  }*/
+  }
 
   @media (max-width: 768px) {
     .texto-depois-imagem {
