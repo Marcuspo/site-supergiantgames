@@ -155,7 +155,7 @@ header .name-header {
 }
 
 .segundo-conteudo {
-  height: 1147px;
+  height: 900px;
   opacity: 1;
 }
 
@@ -237,6 +237,13 @@ header .name-header {
     width: 216px;
     height: 216px;
   }
+}
+
+.form h1 {
+  text-align: center;
+  font: normal normal bold 35px/46px Montserrat;
+  letter-spacing: -0.88px;
+  color: #63c7a9;
 }
 
 body {
