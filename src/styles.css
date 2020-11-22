@@ -290,6 +290,68 @@ header .name-header {
   color: #363636;
 }
 
+.background-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 48px;
+}
+
+.background-form form ::-webkit-input-placeholder {
+  font: normal normal normal 18px/30px Open Sans;
+  letter-spacing: 0px;
+  color: #363636;
+  text-transform: capitalize;
+}
+
+.background-form form :-ms-input-placeholder {
+  font: normal normal normal 18px/30px Open Sans;
+  letter-spacing: 0px;
+  color: #363636;
+  text-transform: capitalize;
+}
+
+.background-form form ::-ms-input-placeholder {
+  font: normal normal normal 18px/30px Open Sans;
+  letter-spacing: 0px;
+  color: #363636;
+  text-transform: capitalize;
+}
+
+.background-form form ::placeholder {
+  font: normal normal normal 18px/30px Open Sans;
+  letter-spacing: 0px;
+  color: #363636;
+  text-transform: capitalize;
+}
+
+.background-form .text-area-from, .background-form .text-area-from .form-control-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 197px;
+}
+
+.background-form .text-area-from .form-control-text {
+  width: 430px;
+}
+
+.background-form .form-control {
+  border: 1px solid #363636;
+}
+
 @media (min-width: 2px) and (max-width: 575px) {
   .background-form .background-form {
     width: 900px;
@@ -305,8 +367,19 @@ header .name-header {
     width: 200px;
   }
   .background-form form {
-    padding-top: 90px;
+    padding-top: 120px;
     margin: 5px;
+    padding-bottom: 35px;
+  }
+  .background-form .text-area-from, .background-form .text-area-from .form-control-text {
+    margin: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 250px;
   }
 }
 
@@ -327,6 +400,15 @@ header .name-header {
   .background-form form {
     padding-top: 90px;
     margin: 5px;
+  }
+  .background-form .text-area-from, .background-form .text-area-from .form-control-text {
+    margin: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 

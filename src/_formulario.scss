@@ -33,6 +33,31 @@
     color: #363636;
   }
 
+  form {
+    @include flexCenter();
+    ::placeholder {
+      font: normal normal normal 18px/30px Open Sans;
+      letter-spacing: 0px;
+      color: #363636;
+      text-transform: capitalize;
+    }
+    height: 48px;
+  }
+
+  .text-area-from {
+    @include flexCenter();
+    height: 197px;
+
+    .form-control-text {
+      width: 430px;
+      @extend .text-area-from;
+    }
+  }
+
+  .form-control {
+    border: 1px solid #363636;
+  }
+
   @media (min-width: 2px) and (max-width: 575px) {
     .background-form {
       width: 900px;
@@ -50,8 +75,16 @@
     }
 
     form {
-      padding-top: 90px;
+      padding-top: 120px;
       margin: 5px;
+      padding-bottom: 35px;
+    }
+
+    .text-area-from {
+      margin: 10px;
+      display: flex;
+      align-items: center;
+      width: 250px;
     }
   }
 
@@ -75,6 +108,11 @@
     form {
       padding-top: 90px;
       margin: 5px;
+    }
+    .text-area-from {
+      margin: 25px;
+      display: flex;
+      align-items: center;
     }
   }
 }
