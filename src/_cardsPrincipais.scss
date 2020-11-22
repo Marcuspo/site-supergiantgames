@@ -1,15 +1,18 @@
 .segundo-conteudo {
-  height: 1000px;
+  height: 1147px;
   opacity: 1;
 
   .card {
-    width: 387px;
-    height: 613px;
     background: #ffffff;
     box-shadow: 0px 3px 6px #ffffff63;
+    height: 650px;
     border-radius: 27px;
     flex-direction: column;
     margin: 30px;
+  }
+
+  .background-item-personas {
+    @include flexCenter();
   }
 
   .item-meio {
@@ -20,10 +23,12 @@
   }
 
   .imagem-personas {
-    box-shadow: 0px 3px 6px #ff060629;
+    box-shadow: 0px 2px 6px #ffffff;
     border-radius: 99px;
-    width: 379px;
+    border: #ffffff;
     height: 525px;
+    margin-top: -150px;
+    background-color: #363636;
   }
 
   .texto-depois-imagem {
@@ -38,5 +43,30 @@
     font: normal normal normal 20px/25px Open Sans;
     letter-spacing: 0px;
     color: #363636;
+  }
+
+  @media (max-width: 575px) and (min-width: 2px) {
+    .imagem-personas {
+      width: 140px;
+      height: 200px;
+    }
+
+    .texto-depois-imagem {
+      margin-top: 10px;
+      width: 220px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .imagem-personas {
+      height: 350px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .texto-depois-imagem {
+      width: 216px;
+      height: 216px;
+    }
   }
 }

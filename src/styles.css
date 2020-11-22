@@ -92,7 +92,7 @@ header .name-header {
   opacity: 1;
 }
 
-@media (min-width: 360px) {
+@media (max-width: 575px) and (min-width: 2px) {
   .card-principal .imagem-card-meio {
     width: 280px;
   }
@@ -134,7 +134,7 @@ header .name-header {
           align-items: center;
   color: #ffffff;
   margin-top: -5px;
-  margin-bottom: 45px;
+  margin-bottom: 200px;
 }
 
 .mouse-meio-card {
@@ -155,22 +155,33 @@ header .name-header {
 }
 
 .segundo-conteudo {
-  height: 1000px;
+  height: 1147px;
   opacity: 1;
 }
 
 .segundo-conteudo .card, .segundo-conteudo .item-meio {
-  width: 387px;
-  height: 613px;
   background: #ffffff;
   -webkit-box-shadow: 0px 3px 6px #ffffff63;
           box-shadow: 0px 3px 6px #ffffff63;
+  height: 650px;
   border-radius: 27px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 30px;
+}
+
+.segundo-conteudo .background-item-personas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .segundo-conteudo .item-meio {
@@ -180,11 +191,13 @@ header .name-header {
 }
 
 .segundo-conteudo .imagem-personas {
-  -webkit-box-shadow: 0px 3px 6px #ff060629;
-          box-shadow: 0px 3px 6px #ff060629;
+  -webkit-box-shadow: 0px 2px 6px #ffffff;
+          box-shadow: 0px 2px 6px #ffffff;
   border-radius: 99px;
-  width: 379px;
+  border: #ffffff;
   height: 525px;
+  margin-top: -150px;
+  background-color: #363636;
 }
 
 .segundo-conteudo .texto-depois-imagem {
@@ -199,6 +212,30 @@ header .name-header {
   font: normal normal normal 20px/25px Open Sans;
   letter-spacing: 0px;
   color: #363636;
+}
+
+@media (max-width: 575px) and (min-width: 2px) {
+  .segundo-conteudo .imagem-personas {
+    width: 140px;
+    height: 200px;
+  }
+  .segundo-conteudo .texto-depois-imagem {
+    margin-top: 10px;
+    width: 220px;
+  }
+}
+
+@media (max-width: 576px) {
+  .segundo-conteudo .imagem-personas {
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .segundo-conteudo .texto-depois-imagem {
+    width: 216px;
+    height: 216px;
+  }
 }
 
 body {

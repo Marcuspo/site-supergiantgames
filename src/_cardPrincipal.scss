@@ -43,7 +43,7 @@
     opacity: 1;
   }
 
-  @media (min-width: 360px) {
+  @media (max-width: 575px) and (min-width: 2px) {
     .imagem-card-meio {
       width: 280px;
     }
@@ -80,7 +80,7 @@
   @include flexCenter();
   color: #ffffff;
   margin-top: -5px;
-  margin-bottom: 45px;
+  margin-bottom: 200px;
 }
 
 .mouse-meio-card {
