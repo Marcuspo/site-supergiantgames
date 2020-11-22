@@ -292,7 +292,7 @@ header .name-header {
 
 @media (min-width: 2px) and (max-width: 575px) {
   .background-form .background-form {
-    width: 200px;
+    width: 900px;
   }
   .background-form .background-branco-form {
     width: 280px;
@@ -304,9 +304,13 @@ header .name-header {
     font-size: 12px;
     width: 200px;
   }
+  .background-form form {
+    padding-top: 90px;
+    margin: 5px;
+  }
 }
 
-@media (max-width: 576px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .background-form .background-form {
     width: 790px;
   }
@@ -319,6 +323,10 @@ header .name-header {
   .background-form p {
     font-size: 20px;
     width: 400px;
+  }
+  .background-form form {
+    padding-top: 90px;
+    margin: 5px;
   }
 }
 
