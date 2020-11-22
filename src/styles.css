@@ -227,7 +227,8 @@ header .name-header {
 
 @media (max-width: 576px) {
   .segundo-conteudo .card, .segundo-conteudo .item-meio {
-    height: 550px;
+    height: 500px;
+    margin-bottom: 160px;
   }
 }
 
