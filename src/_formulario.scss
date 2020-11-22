@@ -58,6 +58,22 @@
     border: 1px solid #363636;
   }
 
+  .botao-apos-form {
+    padding-top: 41px;
+    padding-left: 324px;
+  }
+
+  .btn {
+    width: 249px;
+    height: 48px;
+    background: #63c7a9 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal normal 18px/30px Open Sans;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
   @media (min-width: 2px) and (max-width: 575px) {
     .background-form {
       width: 900px;
@@ -86,6 +102,11 @@
       align-items: center;
       width: 250px;
     }
+
+    .botao-apos-form {
+      padding-top: 0px;
+      padding-left: 15px;
+    }
   }
 
   @media (min-width: 576px) and (max-width: 768px) {
@@ -113,6 +134,11 @@
       margin: 25px;
       display: flex;
       align-items: center;
+    }
+
+    .botao-apos-form {
+      padding-top: 0px;
+      padding-left: 50px;
     }
   }
 }
