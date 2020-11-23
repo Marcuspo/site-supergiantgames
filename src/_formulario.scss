@@ -36,6 +36,8 @@
 
   form {
     @include flexCenter();
+    flex-direction: column;
+    padding-top: 165px;
     ::placeholder {
       font: normal normal normal 18px/30px Open Sans;
       letter-spacing: 0px;
@@ -48,6 +50,7 @@
   .text-area-from {
     @include flexCenter();
     height: 197px;
+    margin: 35px;
 
     .form-control-text {
       width: 430px;
@@ -92,7 +95,7 @@
     }
 
     form {
-      padding-top: 120px;
+      padding-top: 250px;
       margin: 5px;
       padding-bottom: 35px;
     }
@@ -127,10 +130,12 @@
       font-size: 20px;
       width: 400px;
     }
+
     form {
-      padding-top: 90px;
+      padding-top: 250px;
       margin: 5px;
     }
+
     .text-area-from {
       margin: 25px;
       display: flex;
