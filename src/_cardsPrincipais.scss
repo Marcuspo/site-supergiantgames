@@ -3,6 +3,15 @@
   opacity: 1;
   padding-bottom: 250px;
 
+  .setas-direcionais-l {
+    color: white;
+    padding-right: 95px;
+  }
+  .setas-direcionais-r {
+    color: white;
+    padding-left: 95px;
+  }
+
   .conteudo-carrossel {
     width: 820px;
     justify-content: space-between;

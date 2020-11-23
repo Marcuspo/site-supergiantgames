@@ -182,6 +182,16 @@ header .name-header {
   padding-bottom: 250px;
 }
 
+.segundo-conteudo .setas-direcionais-l {
+  color: white;
+  padding-right: 95px;
+}
+
+.segundo-conteudo .setas-direcionais-r {
+  color: white;
+  padding-left: 95px;
+}
+
 .segundo-conteudo .conteudo-carrossel {
   width: 820px;
   -webkit-box-pack: justify;
