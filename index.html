@@ -7,6 +7,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./src/styles.css">
     <title>Sorocabacom</title>
+
+    <script>
+        $(document).ready(function() {
+	    $('#subir').click(function(){
+		$('html, body').animate({scrollTop:0}, 'slow');
+		return false;
+	});
+});
+    </script>
 </head>
 <body>
     <header>
@@ -108,8 +117,10 @@
     <footer>
 
         <div class="footer">
-            <div class="back-to-top" href="topo">
-                <i class="fas fa-chevron-up fa-3x"></i>
+            <div class="back-to-top" >
+                <i class="fas fa-chevron-up fa-3x">
+                    <a href="#topo" id="#subir"></a>
+                </i>
             </div>
         </div>
     </footer>
