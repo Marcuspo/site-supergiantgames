@@ -81,7 +81,7 @@
                     <h1>FORMULÁRIO</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-                <form class="form">
+                <form class="form" onSubmit="return confirm('Todos os campos estão corretos?'), alert('Mensagem enviada com sucesso')">
                     <div class="row">
                       <div class="col">
                         <input type="text" class="form-control" placeholder="Nome">
@@ -93,7 +93,7 @@
                     <div class="text-area-from">
                         <textarea class="form-control-text" id="FormControlTextarea1" placeholder="Mensagem"></textarea>
                     </div>
-                    <button type="submit" onsubmit="Teste" class="btn btn-lg">Enviar</button>
+                    <button type="submit"  method="post" class="btn btn-lg">Enviar</button>
                 </form>        
                 </div>
             </div>
