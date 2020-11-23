@@ -455,6 +455,10 @@ header .name-header {
   height: 320px;
 }
 
+.footer a {
+  color: black;
+}
+
 .footer .back-to-top {
   background-color: #ffffff;
   border-radius: 65px;
