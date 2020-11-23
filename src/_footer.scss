@@ -1,5 +1,7 @@
 .footer {
   height: 320px;
+  @include flexCenter();
+  justify-content: flex-end;
 
   a {
     color: black;
@@ -12,7 +14,6 @@
     box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, 0.75);
     cursor: pointer;
     height: 107px;
-    position: fixed;
     right: 22px;
     width: 107px;
     z-index: 3;
