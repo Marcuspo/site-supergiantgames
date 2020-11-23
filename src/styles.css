@@ -319,8 +319,7 @@ header .name-header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 165px;
-  height: 48px;
+  padding-top: 25px;
 }
 
 .background-form form ::-webkit-input-placeholder {
@@ -373,9 +372,24 @@ header .name-header {
   border: 1px solid #363636;
 }
 
+.background-form .area-botao-form {
+  width: 430px;
+  padding-top: 0px;
+}
+
 .background-form .botao-apos-form {
-  padding-top: 41px;
-  padding-left: 324px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .background-form .btn {
@@ -404,8 +418,8 @@ header .name-header {
     width: 200px;
   }
   .background-form form {
-    padding-top: 250px;
-    margin: 5px;
+    padding-top: 95px;
+    margin: 25px;
     padding-bottom: 35px;
   }
   .background-form .text-area-from, .background-form .text-area-from .form-control-text {
@@ -420,7 +434,8 @@ header .name-header {
   }
   .background-form .botao-apos-form {
     padding-top: 0px;
-    padding-left: 15px;
+    padding-left: 95px;
+    width: 35px;
   }
 }
 
@@ -439,7 +454,7 @@ header .name-header {
     width: 400px;
   }
   .background-form form {
-    padding-top: 250px;
+    padding-top: 50px;
     margin: 5px;
   }
   .background-form .text-area-from, .background-form .text-area-from .form-control-text {
@@ -453,7 +468,6 @@ header .name-header {
   }
   .background-form .botao-apos-form {
     padding-top: 0px;
-    padding-left: 50px;
   }
 }
 
